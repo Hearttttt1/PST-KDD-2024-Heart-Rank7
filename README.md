@@ -64,6 +64,10 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
 
   |--merge.ipynb # 融合模型
 ```
+
+## 数据集下载
+在[比赛官网](https://www.biendata.xyz/competition/pst_kdd_2024/data/)下载数据集，存放路径如目录结构所示。
+
 ## 训练及推理过程
 运行六个模型的训练代码：
  - deberta_training.ipynb
