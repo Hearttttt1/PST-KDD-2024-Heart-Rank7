@@ -23,6 +23,12 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
   |--data  
     |--PST
       |--paper-xml  ## 存放数据
+      |--DBLP-Citation-network-V15.json  ## 官方允许使用的 dblp 数据
+      |--paper_source_trace_train_ans.json
+      |--paper_source_trace_valid_wo_ans.json
+      |--submission_example_valid.json
+      |--paper_source_trace_test_wo_ans.json
+      |--submission_example_test.json
   |--bert_models  ## 存放预训练权重
       |--deberta_v3_base
       |--dsp_roberta_base_dapt_cs_tapt_sciie_3219
