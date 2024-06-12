@@ -35,8 +35,8 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
         |--rf
   |--submit  ## 最终提交文件存放处
 
-  |--deberta_training.ipynb  ## deberta训练程序
-  |--deberta_test_inference.ipynb  ## deberta推理程序
+  |--deberta_training.ipynb  ## training后缀为训练程序
+  |--deberta_test_inference.ipynb  ## inference后缀为推理程序
 
   |--roberta_0fold_training.ipynb
   |--roberta_0fold_test_inference.ipynb
@@ -53,8 +53,6 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
   |--lgb_run.ipynb  # LGB
 
   |--merge.ipynb # 融合模型
-
-
 ```
 ## 训练及推理过程
 先运行五个模型的训练代码：
