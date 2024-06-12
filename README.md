@@ -59,8 +59,9 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
   |--scibert_4fold_training.ipynb
   |--scibert_4fold_test_inference.ipynb
 
+  |--lgb_prepare_data.ipynb  # 准备数据
   |--lgb_train.ipynb  # LGB训练
-  |--lgb_inference.ipynb  # LGB推理
+  |--lgb_inference.ipynb  # LGB推理，推理前必须先运行lgb_prepare_data.ipynb !!! 
 
   |--merge.ipynb # 融合模型
 ```
