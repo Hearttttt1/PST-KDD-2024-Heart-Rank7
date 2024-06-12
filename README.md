@@ -4,7 +4,7 @@
 - Python 3.8.13
 - PyTorch 2.0.1+cu117
 - CUDA 11.7
-- NVADIA RTX3030 24G
+- NVADIA RTX3090 24G
 ## 安装依赖包：
 ```bash
 pip install -r requirements.txt
@@ -55,6 +55,8 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
   |--scibert_4fold_test_inference.ipynb
 
   |--rf_run.ipynb  # LGB
+
+  |--merge.ipynb # 融合模型
 
 
 ```
