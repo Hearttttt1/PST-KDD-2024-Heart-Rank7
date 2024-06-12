@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## 下载预训练模型并放在bert_models目录下
-scibert: https://huggingface.co/allenai/scibert_scivocab_uncased/tree/main
+scibert: https://huggingface.co/allenai/scibert_scivocab_uncased/tree/main /n
 deberta: https://huggingface.co/microsoft/deberta-v3-base/tree/main
 roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219/tree/main
 
