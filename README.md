@@ -82,3 +82,10 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
 
 最后运行merge.ipynb生成最终的提交文件（保存在submit目录下）。
 
+## model_checkpoint下载
+链接：https://pan.baidu.com/s/1yh0opO7gUdDPWyC8TrAiIA?pwd=sqed 
+提取码：sqed
+解压后直接覆盖out文件夹
+然后运行相关的inference代码（运行前请确保数据路径正确，并且lgb_inference.ipynb需要先运行lgb_prepare_data.ipynb）
+
+## 有任何问题请联系：1206392134@qq.com
