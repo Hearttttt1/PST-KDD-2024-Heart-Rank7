@@ -50,9 +50,23 @@ roberta: https://huggingface.co/allenai/dsp_roberta_base_dapt_cs_tapt_sciie_3219
   |--scibert_4fold_training.ipynb
   |--scibert_4fold_test_inference.ipynb
 
-  |--rf_run.ipynb  # LGB
+  |--lgb_run.ipynb  # LGB
 
   |--merge.ipynb # 融合模型
 
 
 ```
+## 训练及推理过程
+先运行五个模型的训练代码：
+ - deberta_training.ipynb
+ - roberta_0fold_training.ipynb
+ - roberta_3fold_training.ipynb
+ - scibert_0fold_training.ipynb
+ - scibert_4fold_training.ipynb
+
+之后运行相应的inference代码。
+
+然后运行lgb_run.ipynb。
+
+最后运行merge.ipynb生成最终的提交文件，保存在submit目录下。
+
